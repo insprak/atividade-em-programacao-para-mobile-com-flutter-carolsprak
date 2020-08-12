@@ -9,7 +9,7 @@ class Calculadora {
   int somaDados(int a, int b) {
     try {
       assert(a <= 6.0, a);
-      assert(b <= 6.0, b);
+      assert(b <= 7.0, b);
 
       return somar(a, b);
     } catch (e) {
